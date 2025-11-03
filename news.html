@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行业动态 - SwiftUI训练营</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="行业动态">
+  <meta property="og:image" content="https://images.opencollective.com/2021-frameworks-fund/logo/256.png">
+  <meta property="og:url" content="https://wumacms.github.io/swiftui-bootcamp-website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="行业动态">
+  <meta name="twitter:image" content="https://images.opencollective.com/2021-frameworks-fund/logo/256.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --accent-color: #2563eb; }
+    .accent-text { color: var(--accent-color); }
+    .accent-bg { background-color: var(--accent-color); }
+  </style>
+</head>
+<body class="bg-white dark:bg-gray-900">
+  <header class="bg-white dark:bg-gray-800 shadow-sm">
+    <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="https://images.opencollective.com/2021-frameworks-fund/logo/256.png" alt="SwiftUI训练营" class="h-10 mr-3" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <a href="index.html" class="text-xl font-bold text-gray-800 dark:text-gray-200">SwiftUI训练营</a>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-gray-600 dark:text-gray-300 hover:text-blue-600">首页</a>
+        <a href="about.html" class="text-gray-600 dark:text-gray-300 hover:text-blue-600">关于</a>
+        <a href="product.html" class="text-gray-600 dark:text-gray-300 hover:text-blue-600">产品</a>
+        <a href="news.html" class="text-blue-600 font-semibold hover:text-blue-600">新闻</a>
+        <a href="https://baidu.com" class="text-gray-600 dark:text-gray-300 hover:text-blue-600">百度</a>
+      </div>
+    </nav>
+  </header>
+  <main class="min-h-screen">
+<section class="py-16 bg-white dark:bg-gray-900">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-200">最新动态</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="w-full h-48 bg-gray-200 dark:bg-gray-800 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&amp;h=533&amp;fit=crop&amp;crop=center&amp;q=85" alt="人工智能技术助力医疗诊断创新" class="w-full h-full object-cover" crossorigin="anonymous" referrerpolicy="no-referrer">
+        </div>
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">人工智能技术助力医疗诊断创新</h4>
+          <p class="text-gray-600 dark:text-gray-400"><p><b>近日</b>，某研究团队宣布在医疗AI领域取得重大进展。该团队开发的深度学习模型在肺部CT影像识别测试中，准确率达到98.7%，远超传统诊断方法。</p><p>这项技术有望在未来三年内投入临床使用，为早期癌症筛查提供有力工具。</p></p>
+        </div>
+      </div>
+      <div class="rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="w-full h-48 bg-gray-200 dark:bg-gray-800 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1762022403007-71bb1e3a4fbe?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=900" alt="全球气候变化峰会达成新协议" class="w-full h-full object-cover" crossorigin="anonymous" referrerpolicy="no-referrer">
+        </div>
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">全球气候变化峰会达成新协议</h4>
+          <p class="text-gray-600 dark:text-gray-400"><p>为期三天的全球气候变化峰会于昨日闭幕，与会各国代表就碳排放标准达成重要共识。新协议要求发达国家在2030年前将碳排放减少50%，发展中国家减少30%。</p></p>
+        </div>
+      </div>
+      <div class="rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="w-full h-48 bg-gray-200 dark:bg-gray-800 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1762013315117-1c8005ad2b41?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=900" alt="新能源汽车市场迎来爆发式增长" class="w-full h-full object-cover" crossorigin="anonymous" referrerpolicy="no-referrer">
+        </div>
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">新能源汽车市场迎来爆发式增长</h4>
+          <p class="text-gray-600 dark:text-gray-400"><p>据最新统计数据显示，今年前三季度全球电动汽车销量突破800万辆，中国市场贡献了近一半的销量。专家预测，到2025年新能源汽车渗透率将达30%。</p></p>
+        </div>
+      </div>
+      <div class="rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="w-full h-48 bg-gray-200 dark:bg-gray-800 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&amp;h=533&amp;fit=crop&amp;crop=center&amp;q=85" alt="太空探索公司成功发射新型火箭" class="w-full h-full object-cover" crossorigin="anonymous" referrerpolicy="no-referrer">
+        </div>
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">太空探索公司成功发射新型火箭</h4>
+          <p class="text-gray-600 dark:text-gray-400"><p>今日凌晨，太空探索公司成功发射新型重型运载火箭，并将60颗通信卫星送入预定轨道。这是该公司今年第12次成功发射任务。</p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 SwiftUI训练营. All rights reserved.</p>
+      <p class="mt-2 text-gray-400">探索SwiftUI的无限可能，从入门到进阶，掌握SwiftUI的每一个细节！</p>
+    </div>
+  </footer>
+  <script>
+    const siteData = {"homepagePath":"home","site":{"accentColor":"orange-500","createdAt":"2025-11-01 18:58:31","customDomain":"1024996.cn","deployAt":"2025-11-03 20:50:08","deployMessage":"正在生成静态文件...","deployStatus":"deploying","deployUrl":"https://wumacms.github.io/swiftui-bootcamp-website","description":"探索SwiftUI的无限可能，从入门到进阶，掌握SwiftUI的每一个细节！","domain":"","domainCnameTarget":"wumacms.github.io","domainVerificationToken":"blockcms-62096d3011b54f1f","domainVerified":true,"domainVerifiedAt":"2025-11-03 21:06:32","githubRepo":"wumacms/swiftui-bootcamp-website","id":1,"logoUrl":"https://images.opencollective.com/2021-frameworks-fund/logo/256.png","name":"SwiftUI训练营","status":"published","updatedAt":"2025-11-03 21:06:53","userId":2},"pages":[{"content":"[{\"type\":\"hero-carousel\",\"component\":\"div\",\"props\":{\"title\":\"轮播标题\",\"subtitle\":\"轮播副标题\",\"description\":\"这是一个轮播区块的默认内容\",\"images\":[\"https://images.unsplash.com/photo-1761872936185-4ece7c1128ab?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900\",\"https://images.unsplash.com/photo-1761839258239-2be2146f1605?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900\",\"https://images.unsplash.com/photo-1761839257661-c2392c65ea72?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900\"],\"buttonText\":\"立即开始\",\"buttonLink\":\"#\"}},{\"type\":\"icon-list\",\"component\":\"div\",\"props\":{\"title\":\"我们的优势\",\"subtitle\":\"为什么选择我们\",\"description\":\"以下是我们的核心优势\",\"items\":[{\"icon\":\"🚀\",\"title\":\"快速交付\",\"description\":\"快速响应客户需求，高效完成项目\"},{\"icon\":\"💡\",\"title\":\"创新技术\",\"description\":\"采用最新技术，提供前沿解决方案\"},{\"icon\":\"🎯\",\"title\":\"精准定位\",\"description\":\"深入了解客户需求，提供精准服务\"},{\"icon\":\"🔒\",\"title\":\"安全可靠\",\"description\":\"严格的安全措施，保障数据安全\"},{\"icon\":\"🌟\",\"title\":\"优质服务\",\"description\":\"专业团队，提供7x24小时支持\"},{\"icon\":\"📈\",\"title\":\"持续增长\",\"description\":\"帮助客户业务持续增长和发展\"}]}},{\"type\":\"products\",\"component\":\"div\",\"props\":{\"title\":\"我们的产品\",\"subtitle\":\"精选推荐\",\"description\":\"以下是我们为您精心挑选的推荐产品\",\"showCount\":6}},{\"type\":\"teams\",\"component\":\"div\",\"props\":{\"title\":\"我们的团队\",\"subtitle\":\"核心成员\",\"description\":\"认识一下我们的专业团队\",\"members\":[{\"name\":\"团队成员一\",\"role\":\"CEO\",\"introduction\":\"经验丰富的领导者\",\"avatar\":\"https://xy.cursorflow.cn/images/shouye/11.jpg\"},{\"name\":\"团队成员二\",\"role\":\"CTO\",\"introduction\":\"技术专家\",\"avatar\":\"https://xy.cursorflow.cn/images/shouye/9.jpg\"}]}},{\"type\":\"clients\",\"component\":\"div\",\"props\":{\"title\":\"合作伙伴\",\"subtitle\":\"信任我们的客户\",\"description\":\"我们与众多知名企业建立了良好的合作关系\"}},{\"type\":\"faqs\",\"component\":\"div\",\"props\":{\"title\":\"常见问题\",\"subtitle\":\"FAQ\",\"description\":\"以下是用户最常询问的问题\"}},{\"type\":\"cta\",\"component\":\"div\",\"props\":{\"title\":\"准备开始了吗？\",\"subtitle\":\"联系我们\",\"description\":\"立即联系我们，获取专业的咨询服务\",\"buttonText\":\"立即咨询\",\"buttonLink\":\"#\",\"image\":\"https://source.unsplash.com/1920x600/?,contact,consulting\"}}]","createdAt":"2025-11-01 19:39:12","id":1,"isHomepage":true,"name":"首页","path":"home","siteId":1,"updatedAt":"2025-11-03 02:46:28"},{"content":"[{\"type\":\"text-image-top\",\"component\":\"div\",\"props\":{\"title\":\"关于我们\",\"subtitle\":\"这是关于我们页面\",\"description\":\"我们公司时房间里都是减肥路上大家费拉达斯减肥路上大家发福建省劳动法甲联赛冬季发售\",\"image\":\"https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900\",\"buttonText\":\"公司简介\",\"buttonLink\":\"#\"}},{\"type\":\"text-image-left\",\"component\":\"div\",\"props\":{\"title\":\"左文右图\",\"subtitle\":\"这是左文右图副标题\",\"description\":\"这是左文右图的描述信息。多年来，我们始终坚持创新和品质，赢得了客户的信任和支持。\",\"image\":\"https://plus.unsplash.com/premium_photo-1761298779234-6f1f02431c7b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900\",\"buttonText\":\"了解更多\",\"buttonLink\":\"#\"}},{\"type\":\"text-image-right\",\"component\":\"div\",\"props\":{\"title\":\"左图右文\",\"subtitle\":\"左图右文副标题\",\"description\":\"这是左图右文的描述信息，从咨询到实施，从设计到维护，我们都能为您提供最专业的支持。\",\"image\":\"https://images.unsplash.com/photo-1761931667371-d66e85e7052f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900\",\"buttonText\":\"查看服务\",\"buttonLink\":\"#\"}},{\"type\":\"timeline\",\"component\":\"div\",\"props\":{\"title\":\"我们的发展历程\",\"subtitle\":\"里程碑\",\"description\":\"回顾我们一起走过的路\",\"events\":[{\"date\":\"2020年\",\"title\":\"公司成立\",\"description\":\"公司正式成立，开始为客户提供服务\"},{\"date\":\"2021年\",\"title\":\"产品上线\",\"description\":\"首款产品正式上线，获得广泛好评\"},{\"date\":\"2022年\",\"title\":\"用户突破\",\"description\":\"用户数量突破10万，服务覆盖全国\"},{\"date\":\"2023年\",\"title\":\"国际化\",\"description\":\"业务拓展至海外市场，开启新的征程\"}]}}]","createdAt":"2025-11-02 17:24:58","id":2,"isHomepage":false,"name":"关于","path":"about","siteId":1,"updatedAt":"2025-11-02 20:13:33"},{"content":"[{\"type\":\"text-image-top\",\"component\":\"div\",\"props\":{\"title\":\"产品展示\",\"subtitle\":\"我们的产品\",\"description\":\"我们的产品经过精心设计，结合了最新的技术和用户需求，为您带来最佳的体验。\",\"image\":\"https://images.unsplash.com/photo-1761839259946-2d80f8e72e18?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900\",\"buttonText\":\"查看产品\",\"buttonLink\":\"#\"}},{\"type\":\"products\",\"component\":\"div\",\"props\":{\"title\":\"我们的产品\",\"subtitle\":\"精选推荐\",\"description\":\"以下是我们为您精心挑选的推荐产品\",\"showCount\":6}},{\"type\":\"product-list\",\"component\":\"div\",\"props\":{\"title\":\"产品展示\",\"subtitle\":\"我们的产品\",\"description\":\"查看我们的所有产品\",\"pageSize\":2}}]","createdAt":"2025-11-02 19:12:35","id":3,"isHomepage":false,"name":"产品","path":"product","siteId":1,"updatedAt":"2025-11-02 21:40:30"},{"content":"[{\"type\":\"news\",\"component\":\"div\",\"props\":{\"title\":\"最新动态\",\"subtitle\":\"新闻资讯\",\"description\":\"了解我们的最新消息和行业动态\",\"showCount\":4,\"categoryId\":1}}]","createdAt":"2025-11-02 19:19:32","id":4,"isHomepage":false,"name":"行业动态","path":"news","siteId":1,"updatedAt":"2025-11-03 01:53:24"},{"content":"[{\"type\":\"news-list\",\"component\":\"div\",\"props\":{\"title\":\"专业知识\",\"subtitle\":\"掌握科技前沿的专业知识\",\"description\":\"\",\"pageSize\":3,\"categoryId\":3}}]","createdAt":"2025-11-03 00:47:57","id":6,"isHomepage":false,"name":"专业知识","path":"knowledge","siteId":1,"updatedAt":"2025-11-03 01:56:29"}],"menus":[{"children":[],"createdAt":"2025-11-01 19:50:32","id":1,"name":"首页","pageId":1,"path":"home","siteId":1,"sortOrder":1,"updatedAt":"2025-11-02 17:29:03"},{"children":[],"createdAt":"2025-11-02 17:26:35","id":5,"name":"关于","pageId":2,"path":"about","siteId":1,"sortOrder":2,"updatedAt":"2025-11-02 17:26:35"},{"children":[],"createdAt":"2025-11-02 19:13:24","id":7,"name":"产品","pageId":3,"path":"product","siteId":1,"sortOrder":3,"updatedAt":"2025-11-02 19:13:24"},{"children":[{"children":[],"createdAt":"2025-11-03 00:51:03","id":12,"name":"行业动态","pageId":4,"parentId":8,"path":"news","siteId":1,"sortOrder":1,"updatedAt":"2025-11-03 00:51:03"},{"children":[],"createdAt":"2025-11-03 00:51:15","id":13,"name":"专业知识","pageId":6,"parentId":8,"path":"knowledge","siteId":1,"sortOrder":2,"updatedAt":"2025-11-03 00:51:15"}],"createdAt":"2025-11-02 19:20:40","id":8,"name":"新闻","pageId":4,"path":"news","siteId":1,"sortOrder":4,"updatedAt":"2025-11-03 00:43:02"},{"children":[],"createdAt":"2025-11-02 17:58:46","externalUrl":"https://baidu.com","id":6,"name":"百度","siteId":1,"sortOrder":100,"updatedAt":"2025-11-02 19:20:56"}]};
+    const currentPage = {"path":"news","name":"行业动态","id":4};
+    // 简单的客户端路由处理
+    document.addEventListener('click', function(e) {
+      const link = e.target.closest('a[data-page]');
+      if (link) {
+        e.preventDefault();
+        const pagePath = link.getAttribute('data-page');
+        window.location.href = (pagePath === 'home' ? 'index.html' : pagePath + '.html');
+      }
+    });
+  </script>
+</body>
+</html>
