@@ -1,0 +1,1 @@
+import{K as s}from"./index-R0aFUpAi.js";const r={getPages:e=>s.get(`/sites/${e}/pages`),getPage:(e,t)=>s.get(`/sites/${e}/pages/${t}/detail`),createPage:(e,t)=>s.post(`/sites/${e}/pages`,t),updatePage:(e,t,a)=>s.put(`/sites/${e}/pages/${t}`,a),deletePage:(e,t)=>s.delete(`/sites/${e}/pages/${t}`)};export{r as p};
