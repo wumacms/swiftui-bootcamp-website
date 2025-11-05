@@ -1,0 +1,1 @@
+import{K as r}from"./index.CYdA3MFZ.js";const a={getCategories:e=>r.get(`/sites/${e}/categories`),createCategory:(e,t)=>r.post(`/sites/${e}/categories`,t),updateCategory:(e,t,s)=>r.put(`/sites/${e}/categories/${t}`,s),deleteCategory:(e,t)=>r.delete(`/sites/${e}/categories/${t}`)};export{a as c};
