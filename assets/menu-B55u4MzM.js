@@ -1,0 +1,1 @@
+import{K as s}from"./index-DYZxmwOs.js";const n={getMenus:e=>s.get(`/sites/${e}/menus`),getMenu:(e,t)=>s.get(`/sites/${e}/menus/${t}`),createMenu:(e,t)=>s.post(`/sites/${e}/menus`,t),updateMenu:(e,t,u)=>s.put(`/sites/${e}/menus/${t}`,u),deleteMenu:(e,t)=>s.delete(`/sites/${e}/menus/${t}`),updateMenuOrder:(e,t)=>s.put(`/sites/${e}/menus/order`,{menuIds:t})};export{n as m};
